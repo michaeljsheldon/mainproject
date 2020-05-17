@@ -1,0 +1,124 @@
+a {
+	cursor: pointer;
+}
+
+body {
+	width: 100%;
+	top: 0%;
+	left: 0%;
+}
+
+.col {
+	width: 21%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.column {
+	width: 45%;
+	margin-left: 2%;
+	margin-right: 2%;
+	float: left;
+}
+
+.container {
+	position: relative;
+}
+
+.food-image {
+	width: 100%;
+}
+
+.food-image:hover {
+	filter:brightness(60%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #313131;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.food-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 38.5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.food-heading {
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 25%;
+}
+
+.heading {
+	width: 20%;
+	margin-left: 40%;
+	margin-top: 6%;
+}
+
+.home-link {
+	color: white;
+	font-size: 16px;
+	margin-top: 5%;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	padding-left: 12px;
+	padding-top: 5px;
+}
+
+.icons {
+	width: 50%;
+	margin-left:23%;
+	margin-top: 20%;
+}
+
+.ingredients {
+	font-family: "Open Sans", open-sans;
+}
+
+.links {
+	margin-left: 10%;
+	margin-top: 20%;
+}
+
+.nav {
+	background-color: #313131;
+	height: 55px;
+	width: 100%;
+	margin-top: -0.65%;
+	margin-left: -0.5%;
+}
+
+.navlink {
+	color: white;
+	text-decoration: none;
+	float: right;
+	margin-right: 4%;
+	margin-top: 1%;
+	font-family: "Open Sans", sans-serif;
+}
